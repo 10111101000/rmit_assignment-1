@@ -1,0 +1,16 @@
+body {
+    background: url(img/bg.svg);
+}
+
+.navbar-light {
+    background: rgba(0, 0, 0, 0.0)!important;
+    font: white!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+}
+
+.navbar-light .navbar-brand {
+    color: white!important;
+}
