@@ -1,5 +1,8 @@
 body {
-    background: url(img/bg.svg);
+    background: url(img/bg_trust_lg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #F8F8F8;
 }
 
 .navbar-light {
@@ -13,4 +16,8 @@ body {
 
 .navbar-light .navbar-brand {
     color: white!important;
+}
+
+.rounded {
+    border-radius: 0.6rem!important;
 }
