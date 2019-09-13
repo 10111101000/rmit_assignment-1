@@ -1,108 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/3ab2d4a4e0.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--to be completed-->
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/3ab2d4a4e0.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--to be completed-->
+  <title>Document</title>
 </head>
+
 <body>
-    <div id="my_info" class="container-fluid">
-        <div class="row shadow-lg pt-3 pb-3 mb-5 text-light bg-dark">
-            <div class="col col-xl-2 d-flexr mx-auto text-center">
-                <img class="rounded-circle" src="img/profile1x1.jpg" alt="My profile picture" width="70%">
-                <h1>Angelo Kock</h1>
-                <h4>RMIT Student <br/>(Information Technology)</h4>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col col-xl-9">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="contact" aria-selected="true">Personal information</a>
+  <div id="my_info" class="container-fluid">
+    <div class="row shadow-lg pt-3 pb-3 mb-5 text-light bg-dark">
+      <div class="col col-xl-2 d-flexr mx-auto text-center">
+        <img class="rounded-circle" src="img/profile1x1.jpg" alt="My profile picture" width="70%">
+        <h1>Angelo Kock</h1>
+        <h4>RMIT Student <br />(Information Technology)</h4>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col col-xl-12">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="personal-information-tab" data-toggle="tab" href="#personal-information-tab" role="tab" aria-controls="personal-information-tab"
+              aria-selected="true">Personal information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="xx-tab" data-toggle="tab" href="#xx" role="tab" aria-controls="xx-tab"
+              aria-selected="false">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="yy-tab" data-toggle="tab" href="#yy" role="tab" aria-controls="yy-tab"
+              aria-selected="false">Contact</a>
+          </li>
+        </ul>
+        <div class="tab-content pt-3 fade-bg" id="myTabContent">
+          <div class="tab-pane fade show active" id="personal-information-tab" role="tabpanel" aria-labelledby="personal-information">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col col-md-12 col-lg-3">
+                  <h4>
+                    RMIT Student<br />(Information Technology)
+                  </h4>
+                  <p>
+                    Student Number: S3819893<br /><i class="far fa-envelope"></i> <a
+                      href="mailto:S3819893@student.rmit.edu.com.au">S3819893@student.rmit.edu.com.au</a>
+                  </p>
+                </div>
+                <div class="col col-md-12 col-lg-3">
+                  <h4>
+                    Country of residence
+                  </h4>
+                  <p>Australia since 2017.<br />Born and raised in Germany.</p>
+                </div>
+                <div class="col col-md-12 col-lg-3">
+                  <h4>
+                    Education
+                  </h4>
+                  <ul>
+                    <li>
+                      Self learner (most recent Python, HTML, CSS & JavaScript)
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id="xx-tab" data-toggle="tab" href="#yy" role="tab" aria-controls="xx-tab" aria-selected="false">Profile</a>
+                    <li>
+                      Distance Education Course (High School Diploma, 2013-2017)
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id="yy-tab" data-toggle="tab" href="#xx" role="tab" aria-controls="yy-tab" aria-selected="false">Contact</a>
+                    <li>Various service technician certifications in Appliance Services issued by Miele, Siemens &
+                      Liebherr (2008-2014)</li>
+                    <li>
+                      Apprenticed electrician (finished 2005)
                     </li>
                   </ul>
-                  <div class="tab-content pt-3 fade-bg" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                      <div class="container-fluid">
-                        <div class="row">
-                          <div class="col col-md-12 col-lg-3">
-                            <h4>
-                              RMIT Student<br/>(Information Technology)
-                            </h4>  
-                            <p>
-                              Student Number: S3819893<br/><i class="far fa-envelope"></i> <a href="mailto:S3819893@student.rmit.edu.com.au">S3819893@student.rmit.edu.com.au</a>
-                            </p>
-                          </div>
-                          <div class="col col-md-12 col-lg-3">
-                            <h4>
-                              Country of residence
-                            </h4>
-                            <p>Australia since 2017.<br/>Born and raised in Germany.</p>
-                          </div>
-                          <div class="col col-md-12 col-lg-3">
-                            <h4>
-                              Education
-                            </h4>
-                            <ul>
-                              <li>
-                                Self learner (most recent Python, HTML, CSS & JavaScript)
-                              </li>
-                              <li>
-                                Distance Education Course (High School Diploma, 2013-2017)  
-                              </li>
-                              <li>Various service technician certifications in Appliance Services issued by Miele, Siemens & Liebherr (2008-2014)</li>
-                              <li>
-                                Apprenticed electrician (finished 2005)
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col col-md-12 col-lg-3">
-                            <h4>
-                              Spoken languages
-                            </h4>
-                            <p>
-                              <ul>
-                                <li>
-                                    German (first language)
-                                </li>
-                                <li>
-                                    English (proficient - superior)
-                                </li>
-                              </ul>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col col-md-12 col-lg-3">
-                          <h4>
-                            Further interests
-                          </h4>
-                          <p>
-                            I'm an avid farmer. The connection between farming and IT might not be apparent but Information Technology can not only improve efficiency but also help
-                            farmers to make their lives easier and their operations cheaper.<br/>
-                            Farm smart, not hard.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="tab-pane fade" id="yy" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                    <div class="tab-pane fade" id="xx" role="tabpanel" aria-labelledby="contact-tab">...</div>
-                  </div>
+                </div>
+                <div class="col col-md-12 col-lg-3">
+                  <h4>
+                    Spoken languages
+                  </h4>
+                  <ul>
+                    <li>
+                      German (first language)
+                    </li>
+                    <li>
+                      English (proficient - superior)
+                    </li>
+                  </ul>
+                </div>
+                <div class="col col-md-12 col-lg-3">
+                  <h4>
+                    Further interests
+                  </h4>
+                  <p>
+                    I'm an avid farmer. The connection between farming and IT might not be apparent but Information
+                    Technology can not only improve efficiency but also help
+                    farmers to make their lives easier and their operations cheaper.<br />
+                    Farm smart, not hard.
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+        <div class="tab-pane fade" id="xx" role="tabpanel" aria-labelledby="xx-tab">...</div>
+        <div class="tab-pane fade" id="xx" role="tabpanel" aria-labelledby="contact-tab">...</div>
+      </div>
     </div>
+  </div>
+  </div>
 </body>
+
 </html>
